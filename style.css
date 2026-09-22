@@ -1,0 +1,110 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  font-family: "Inter", sans-serif;
+}
+
+.profile-card {
+  height: 450px;
+  width: 500px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(180, 190, 215, 0.4);
+  background-color: #ffffff;
+}
+
+.banner-picture {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Maintain the aspect ratio on any screen*/
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile-picture {
+  height: 42px;
+  width: 42px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 18px;
+  outline: 3px solid rgb(199, 176, 143); /* size, style, and color */
+  outline-offset: 2px; /* white space between the photo and the border */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: #f5f5f5;
+  border: 2px solid rgba(210, 206, 206);
+  border-radius: 999px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 16px;
+}
+
+.search-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  padding-top: 8px;
+  font-family: inherit;
+}
+
+.search-form button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search-form img {
+  width: 22px;
+  height: 22px;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  border-top: 1px solid #b19c83b4;
+  padding-top: 16px;
+  margin-top: 8px;
+}
+
+button {
+  background-color: #958166;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
