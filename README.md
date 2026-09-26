@@ -1,4 +1,4 @@
-# 🖼️ Dayframe Card
+# Dayframe Card
 
 ### ₊⊹ About
 
