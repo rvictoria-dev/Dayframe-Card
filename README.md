@@ -32,7 +32,7 @@ Designed with a quiet, nostalgic feel, inspired by the charm of ordinary moments
 
 ```
 Dayframe-Card/
-├── Assets/
+├── assets/
 ├── Styles.css
 ├── index.html
 └── README.md
