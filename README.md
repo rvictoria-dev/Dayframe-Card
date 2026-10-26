@@ -12,10 +12,15 @@ Designed with a quiet, nostalgic feel, inspired by the charm of ordinary moments
 ### ★ Features
 
 - Integration with the **Inter** font via Google Fonts for better readability.
+  
 - Use of soft shadows (`box-shadow`) to add depth to the card on the screen.
+  
 - Top image structured with `aspect-ratio (16/9)`, ensuring it doesn’t distort on different screens.
+  
 - Circular profile photo with a custom border using advanced CSS properties (`outline-offset`).
+  
 - Quick tabs (Home, About, Rules, Interests) organized horizontally using a subtle divider.
+  
 - Extensive use of *Flexbox* to ensure the card is perfectly centered on the page.
 
 ---
@@ -31,7 +36,7 @@ Designed with a quiet, nostalgic feel, inspired by the charm of ordinary moments
 ### 🖿 Project structure
 
 ```
-Dayframe-Card/
+dayframe-card/
 ├── assets/
 ├── Styles.css
 ├── index.html
@@ -44,8 +49,10 @@ Dayframe-Card/
 
 - **Global Centering (`body`):**
 The project uses a global container that occupies 100% of the height of the viewed screen (`min-height: 100vh`). Using the **Flexbox** axis system, the main card is automatically centered both horizontally and vertically, regardless of the size of the monitor or screen.
+
 - **The Main Container (`.profile-card`):**
 The entire interface is encapsulated within a semantic `<article>` tag. It has fixed safety dimensions (`500px` wide by `450px` tall), creating a physical frame with smooth edges and a drop shadow on the background.
+
 - **Visual Block Layout**
 *The card’s internal structure reads and renders elements from top to bottom in three main blocks:*
 1. **Top (Visual):** The banner image maintains the perfect 16:9 aspect ratio (`aspect-ratio`), behaving like a real camera photo that fills the entire width without distorting the pixels.
